@@ -1,0 +1,15 @@
+C:\Users\Marco\RiderProjects\Task2102-3\bin\Debug\net6.0\Task2102-3.exe
+C:\Users\Marco\RiderProjects\Task2102-3\bin\Debug\net6.0\Task2102-3.deps.json
+C:\Users\Marco\RiderProjects\Task2102-3\bin\Debug\net6.0\Task2102-3.runtimeconfig.json
+C:\Users\Marco\RiderProjects\Task2102-3\bin\Debug\net6.0\Task2102-3.dll
+C:\Users\Marco\RiderProjects\Task2102-3\bin\Debug\net6.0\Task2102-3.pdb
+C:\Users\Marco\RiderProjects\Task2102-3\obj\Debug\net6.0\Task2102-3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marco\RiderProjects\Task2102-3\obj\Debug\net6.0\Task2102-3.AssemblyInfoInputs.cache
+C:\Users\Marco\RiderProjects\Task2102-3\obj\Debug\net6.0\Task2102-3.AssemblyInfo.cs
+C:\Users\Marco\RiderProjects\Task2102-3\obj\Debug\net6.0\Task2102-3.csproj.CoreCompileInputs.cache
+C:\Users\Marco\RiderProjects\Task2102-3\obj\Debug\net6.0\Task2102-3.sourcelink.json
+C:\Users\Marco\RiderProjects\Task2102-3\obj\Debug\net6.0\Task2102-3.dll
+C:\Users\Marco\RiderProjects\Task2102-3\obj\Debug\net6.0\refint\Task2102-3.dll
+C:\Users\Marco\RiderProjects\Task2102-3\obj\Debug\net6.0\Task2102-3.pdb
+C:\Users\Marco\RiderProjects\Task2102-3\obj\Debug\net6.0\Task2102-3.genruntimeconfig.cache
+C:\Users\Marco\RiderProjects\Task2102-3\obj\Debug\net6.0\ref\Task2102-3.dll
