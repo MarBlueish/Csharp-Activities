@@ -1,0 +1,14 @@
+C:\Users\Marco\RiderProjects\task2002-3\bin\Debug\net8.0\task2002-3.exe
+C:\Users\Marco\RiderProjects\task2002-3\bin\Debug\net8.0\task2002-3.deps.json
+C:\Users\Marco\RiderProjects\task2002-3\bin\Debug\net8.0\task2002-3.runtimeconfig.json
+C:\Users\Marco\RiderProjects\task2002-3\bin\Debug\net8.0\task2002-3.dll
+C:\Users\Marco\RiderProjects\task2002-3\bin\Debug\net8.0\task2002-3.pdb
+C:\Users\Marco\RiderProjects\task2002-3\obj\Debug\net8.0\task2002-3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marco\RiderProjects\task2002-3\obj\Debug\net8.0\task2002-3.AssemblyInfoInputs.cache
+C:\Users\Marco\RiderProjects\task2002-3\obj\Debug\net8.0\task2002-3.AssemblyInfo.cs
+C:\Users\Marco\RiderProjects\task2002-3\obj\Debug\net8.0\task2002-3.csproj.CoreCompileInputs.cache
+C:\Users\Marco\RiderProjects\task2002-3\obj\Debug\net8.0\task2002-3.dll
+C:\Users\Marco\RiderProjects\task2002-3\obj\Debug\net8.0\refint\task2002-3.dll
+C:\Users\Marco\RiderProjects\task2002-3\obj\Debug\net8.0\task2002-3.pdb
+C:\Users\Marco\RiderProjects\task2002-3\obj\Debug\net8.0\task2002-3.genruntimeconfig.cache
+C:\Users\Marco\RiderProjects\task2002-3\obj\Debug\net8.0\ref\task2002-3.dll
