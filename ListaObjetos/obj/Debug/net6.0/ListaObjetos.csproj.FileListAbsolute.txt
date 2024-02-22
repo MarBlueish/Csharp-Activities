@@ -1,0 +1,15 @@
+C:\Users\Marco\RiderProjects\ListaObjetos\obj\Debug\net6.0\ListaObjetos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marco\RiderProjects\ListaObjetos\obj\Debug\net6.0\ListaObjetos.AssemblyInfoInputs.cache
+C:\Users\Marco\RiderProjects\ListaObjetos\obj\Debug\net6.0\ListaObjetos.AssemblyInfo.cs
+C:\Users\Marco\RiderProjects\ListaObjetos\obj\Debug\net6.0\ListaObjetos.csproj.CoreCompileInputs.cache
+C:\Users\Marco\RiderProjects\ListaObjetos\obj\Debug\net6.0\ListaObjetos.sourcelink.json
+C:\Users\Marco\RiderProjects\ListaObjetos\bin\Debug\net6.0\ListaObjetos.exe
+C:\Users\Marco\RiderProjects\ListaObjetos\bin\Debug\net6.0\ListaObjetos.deps.json
+C:\Users\Marco\RiderProjects\ListaObjetos\bin\Debug\net6.0\ListaObjetos.runtimeconfig.json
+C:\Users\Marco\RiderProjects\ListaObjetos\bin\Debug\net6.0\ListaObjetos.dll
+C:\Users\Marco\RiderProjects\ListaObjetos\bin\Debug\net6.0\ListaObjetos.pdb
+C:\Users\Marco\RiderProjects\ListaObjetos\obj\Debug\net6.0\ListaObjetos.dll
+C:\Users\Marco\RiderProjects\ListaObjetos\obj\Debug\net6.0\refint\ListaObjetos.dll
+C:\Users\Marco\RiderProjects\ListaObjetos\obj\Debug\net6.0\ListaObjetos.pdb
+C:\Users\Marco\RiderProjects\ListaObjetos\obj\Debug\net6.0\ListaObjetos.genruntimeconfig.cache
+C:\Users\Marco\RiderProjects\ListaObjetos\obj\Debug\net6.0\ref\ListaObjetos.dll

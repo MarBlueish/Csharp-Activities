@@ -1,0 +1,15 @@
+C:\Users\Marco\RiderProjects\ArraysExercicio\bin\Debug\net6.0\ArraysExercicio.exe
+C:\Users\Marco\RiderProjects\ArraysExercicio\bin\Debug\net6.0\ArraysExercicio.deps.json
+C:\Users\Marco\RiderProjects\ArraysExercicio\bin\Debug\net6.0\ArraysExercicio.runtimeconfig.json
+C:\Users\Marco\RiderProjects\ArraysExercicio\bin\Debug\net6.0\ArraysExercicio.dll
+C:\Users\Marco\RiderProjects\ArraysExercicio\bin\Debug\net6.0\ArraysExercicio.pdb
+C:\Users\Marco\RiderProjects\ArraysExercicio\obj\Debug\net6.0\ArraysExercicio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marco\RiderProjects\ArraysExercicio\obj\Debug\net6.0\ArraysExercicio.AssemblyInfoInputs.cache
+C:\Users\Marco\RiderProjects\ArraysExercicio\obj\Debug\net6.0\ArraysExercicio.AssemblyInfo.cs
+C:\Users\Marco\RiderProjects\ArraysExercicio\obj\Debug\net6.0\ArraysExercicio.csproj.CoreCompileInputs.cache
+C:\Users\Marco\RiderProjects\ArraysExercicio\obj\Debug\net6.0\ArraysExercicio.sourcelink.json
+C:\Users\Marco\RiderProjects\ArraysExercicio\obj\Debug\net6.0\ArraysExercicio.dll
+C:\Users\Marco\RiderProjects\ArraysExercicio\obj\Debug\net6.0\refint\ArraysExercicio.dll
+C:\Users\Marco\RiderProjects\ArraysExercicio\obj\Debug\net6.0\ArraysExercicio.pdb
+C:\Users\Marco\RiderProjects\ArraysExercicio\obj\Debug\net6.0\ArraysExercicio.genruntimeconfig.cache
+C:\Users\Marco\RiderProjects\ArraysExercicio\obj\Debug\net6.0\ref\ArraysExercicio.dll
