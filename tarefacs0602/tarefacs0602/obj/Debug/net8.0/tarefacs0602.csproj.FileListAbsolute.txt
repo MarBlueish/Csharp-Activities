@@ -1,0 +1,14 @@
+C:\Users\Marco\RiderProjects\tarefacs0602\tarefacs0602\bin\Debug\net8.0\tarefacs0602.exe
+C:\Users\Marco\RiderProjects\tarefacs0602\tarefacs0602\bin\Debug\net8.0\tarefacs0602.deps.json
+C:\Users\Marco\RiderProjects\tarefacs0602\tarefacs0602\bin\Debug\net8.0\tarefacs0602.runtimeconfig.json
+C:\Users\Marco\RiderProjects\tarefacs0602\tarefacs0602\bin\Debug\net8.0\tarefacs0602.dll
+C:\Users\Marco\RiderProjects\tarefacs0602\tarefacs0602\bin\Debug\net8.0\tarefacs0602.pdb
+C:\Users\Marco\RiderProjects\tarefacs0602\tarefacs0602\obj\Debug\net8.0\tarefacs0602.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marco\RiderProjects\tarefacs0602\tarefacs0602\obj\Debug\net8.0\tarefacs0602.AssemblyInfoInputs.cache
+C:\Users\Marco\RiderProjects\tarefacs0602\tarefacs0602\obj\Debug\net8.0\tarefacs0602.AssemblyInfo.cs
+C:\Users\Marco\RiderProjects\tarefacs0602\tarefacs0602\obj\Debug\net8.0\tarefacs0602.csproj.CoreCompileInputs.cache
+C:\Users\Marco\RiderProjects\tarefacs0602\tarefacs0602\obj\Debug\net8.0\tarefacs0602.dll
+C:\Users\Marco\RiderProjects\tarefacs0602\tarefacs0602\obj\Debug\net8.0\refint\tarefacs0602.dll
+C:\Users\Marco\RiderProjects\tarefacs0602\tarefacs0602\obj\Debug\net8.0\tarefacs0602.pdb
+C:\Users\Marco\RiderProjects\tarefacs0602\tarefacs0602\obj\Debug\net8.0\tarefacs0602.genruntimeconfig.cache
+C:\Users\Marco\RiderProjects\tarefacs0602\tarefacs0602\obj\Debug\net8.0\ref\tarefacs0602.dll

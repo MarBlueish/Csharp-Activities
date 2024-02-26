@@ -1,0 +1,14 @@
+C:\Users\Marco\RiderProjects\aulach03\obj\Debug\net8.0\aulach03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marco\RiderProjects\aulach03\obj\Debug\net8.0\aulach03.AssemblyInfoInputs.cache
+C:\Users\Marco\RiderProjects\aulach03\obj\Debug\net8.0\aulach03.AssemblyInfo.cs
+C:\Users\Marco\RiderProjects\aulach03\obj\Debug\net8.0\aulach03.csproj.CoreCompileInputs.cache
+C:\Users\Marco\RiderProjects\aulach03\bin\Debug\net8.0\aulach03.exe
+C:\Users\Marco\RiderProjects\aulach03\bin\Debug\net8.0\aulach03.deps.json
+C:\Users\Marco\RiderProjects\aulach03\bin\Debug\net8.0\aulach03.runtimeconfig.json
+C:\Users\Marco\RiderProjects\aulach03\bin\Debug\net8.0\aulach03.dll
+C:\Users\Marco\RiderProjects\aulach03\bin\Debug\net8.0\aulach03.pdb
+C:\Users\Marco\RiderProjects\aulach03\obj\Debug\net8.0\aulach03.dll
+C:\Users\Marco\RiderProjects\aulach03\obj\Debug\net8.0\refint\aulach03.dll
+C:\Users\Marco\RiderProjects\aulach03\obj\Debug\net8.0\aulach03.pdb
+C:\Users\Marco\RiderProjects\aulach03\obj\Debug\net8.0\aulach03.genruntimeconfig.cache
+C:\Users\Marco\RiderProjects\aulach03\obj\Debug\net8.0\ref\aulach03.dll

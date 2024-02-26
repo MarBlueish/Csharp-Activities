@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "tarefacs0602/1.0.0": {
+        "runtime": {
+          "tarefacs0602.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "tarefacs0602/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,14 @@
+C:\Users\Marco\RiderProjects\aulacsh02\bin\Debug\net8.0\aulacsh02.exe
+C:\Users\Marco\RiderProjects\aulacsh02\bin\Debug\net8.0\aulacsh02.deps.json
+C:\Users\Marco\RiderProjects\aulacsh02\bin\Debug\net8.0\aulacsh02.runtimeconfig.json
+C:\Users\Marco\RiderProjects\aulacsh02\bin\Debug\net8.0\aulacsh02.dll
+C:\Users\Marco\RiderProjects\aulacsh02\bin\Debug\net8.0\aulacsh02.pdb
+C:\Users\Marco\RiderProjects\aulacsh02\obj\Debug\net8.0\aulacsh02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marco\RiderProjects\aulacsh02\obj\Debug\net8.0\aulacsh02.AssemblyInfoInputs.cache
+C:\Users\Marco\RiderProjects\aulacsh02\obj\Debug\net8.0\aulacsh02.AssemblyInfo.cs
+C:\Users\Marco\RiderProjects\aulacsh02\obj\Debug\net8.0\aulacsh02.csproj.CoreCompileInputs.cache
+C:\Users\Marco\RiderProjects\aulacsh02\obj\Debug\net8.0\aulacsh02.dll
+C:\Users\Marco\RiderProjects\aulacsh02\obj\Debug\net8.0\refint\aulacsh02.dll
+C:\Users\Marco\RiderProjects\aulacsh02\obj\Debug\net8.0\aulacsh02.pdb
+C:\Users\Marco\RiderProjects\aulacsh02\obj\Debug\net8.0\aulacsh02.genruntimeconfig.cache
+C:\Users\Marco\RiderProjects\aulacsh02\obj\Debug\net8.0\ref\aulacsh02.dll
