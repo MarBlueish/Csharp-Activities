@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,600,700" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="CSS/form1.css">
+	<title>Candidatura espontânea</title>
+</head>
+
+ 
+
+<body>
+	<header class="main_header">
+		<img src="Imagens/logo.jpg">
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="remover.html">Politica de Privacidade</a></li>
+				<li><a href="form1.html">Candidatura Espontânea</a></li>
+				<li><a href="form2.html">Fale Conosco</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="container">
+	<form name="form" method="POST" action="http://localhost/PHP_project/inserir.php">
+  	
+    <p>
+    <label class="nome" ><b>Nome: </b>
+    </label>
+    <input type="text" placeholder="*" name="nome">
+    <span class="error"><?php echo $nameError;?></span>
+
+  	</p>
+    <p>
+    <label class="your_email"><b>Email: </b>
+    </label>
+    <input type="email" placeholder="developer@devsync.pt" name="email">
+    <span class="error"><?php echo $emailError;?>
+    </span>
+  </p>
+  <p>
+    <label class="phone"><b>Número de Contacto: </b>
+    </label>
+    <input type="number" name="telef">
+    <span class="error"><?php echo $telefError;?>
+    </span>
+  </p>
+  <p>
+    <label class="country"><b>País: </b>
+    </label>
+    <select name="pais">
+      <span class="error"><?php echo $paisError;?></span>
+      <option>Portugal</option>
+      <option>France</option>
+      <option>Germany</option>
+      <option>Italy</option>
+      <option>Japan</option>
+      <option>Russia</option>
+      <option>United Kingdom</option>
+      <option>United States</option>
+    </select>
+     <p>
+  <label class="time"><b>Qual a tua experiencia academica? </b> </label>
+<label>
+  <p><input type="radio" name="status">
+  9º ano </p>
+  <p><input type="radio" name="status">
+  12º ano </p>
+  <p><input type="radio" name="status">
+  CTESP </p>
+  <p><input type="radio" name="status">
+  Licenciatura </p>
+  <p><input type="radio" name="status">
+  Mestrado </p>
+</label>
+<p>
+        <label class="time"><b>Curriculum Vitae </b> </label>
+        
+    </p> <input type='file' name='upload'><p>
+        <label class="time"><b>Porque quer trabalhar na DevSync?</b> </label><p>    
+<label class="coment_box">
+	<textarea cols="60" rows="5" placeholder="Escreva aqui..."></textarea>
+</label>
+<p>
+	<label class="conditions">
+      <input type="checkbox" value="terms">
+      Eu concordo com os <a href="/terms">termos e condições</a>
+    </label>
+  </p> 
+
+ 
+ 
+<button type="submit" href="http://localhost/PHP_project/inserir.php">Enviar</button>&nbsp; &nbsp; &nbsp;<button type="reset">Limpar</button>
+
+</form>
+</div>
+
+<footer class="mainfooter">
+		<p> &copy; <a href="#">DevSync Team</a></p> 
+		<a href="www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+		<a href="wwww.instagram.com"><i class="fab fa-instagram"></i></a>
+		<a href="https://twitter.com/?lang=pt"><i class="fab fa-twitter"></i></a>
+		<a href="https://vimeo.com"><i class="fab fa-vimeo-v"></i></a>
+		<a href="www.youtube.com"><i class="fab fa-youtube"></i></a>
+
+
+</footer>
+
+</body>
+</html>
