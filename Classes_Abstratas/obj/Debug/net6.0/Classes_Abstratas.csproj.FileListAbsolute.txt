@@ -1,0 +1,15 @@
+C:\Users\Marco\RiderProjects\Classes_Abstratas\obj\Debug\net6.0\Classes_Abstratas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marco\RiderProjects\Classes_Abstratas\obj\Debug\net6.0\Classes_Abstratas.AssemblyInfoInputs.cache
+C:\Users\Marco\RiderProjects\Classes_Abstratas\obj\Debug\net6.0\Classes_Abstratas.AssemblyInfo.cs
+C:\Users\Marco\RiderProjects\Classes_Abstratas\obj\Debug\net6.0\Classes_Abstratas.csproj.CoreCompileInputs.cache
+C:\Users\Marco\RiderProjects\Classes_Abstratas\obj\Debug\net6.0\Classes_Abstratas.sourcelink.json
+C:\Users\Marco\RiderProjects\Classes_Abstratas\bin\Debug\net6.0\Classes_Abstratas.exe
+C:\Users\Marco\RiderProjects\Classes_Abstratas\bin\Debug\net6.0\Classes_Abstratas.deps.json
+C:\Users\Marco\RiderProjects\Classes_Abstratas\bin\Debug\net6.0\Classes_Abstratas.runtimeconfig.json
+C:\Users\Marco\RiderProjects\Classes_Abstratas\bin\Debug\net6.0\Classes_Abstratas.dll
+C:\Users\Marco\RiderProjects\Classes_Abstratas\bin\Debug\net6.0\Classes_Abstratas.pdb
+C:\Users\Marco\RiderProjects\Classes_Abstratas\obj\Debug\net6.0\Classes_Abstratas.dll
+C:\Users\Marco\RiderProjects\Classes_Abstratas\obj\Debug\net6.0\refint\Classes_Abstratas.dll
+C:\Users\Marco\RiderProjects\Classes_Abstratas\obj\Debug\net6.0\Classes_Abstratas.pdb
+C:\Users\Marco\RiderProjects\Classes_Abstratas\obj\Debug\net6.0\Classes_Abstratas.genruntimeconfig.cache
+C:\Users\Marco\RiderProjects\Classes_Abstratas\obj\Debug\net6.0\ref\Classes_Abstratas.dll

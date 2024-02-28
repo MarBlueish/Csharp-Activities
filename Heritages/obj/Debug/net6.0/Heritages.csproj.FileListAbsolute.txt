@@ -1,0 +1,15 @@
+C:\Users\Marco\RiderProjects\Heritages\bin\Debug\net6.0\Heritages.exe
+C:\Users\Marco\RiderProjects\Heritages\bin\Debug\net6.0\Heritages.deps.json
+C:\Users\Marco\RiderProjects\Heritages\bin\Debug\net6.0\Heritages.runtimeconfig.json
+C:\Users\Marco\RiderProjects\Heritages\bin\Debug\net6.0\Heritages.dll
+C:\Users\Marco\RiderProjects\Heritages\bin\Debug\net6.0\Heritages.pdb
+C:\Users\Marco\RiderProjects\Heritages\obj\Debug\net6.0\Heritages.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marco\RiderProjects\Heritages\obj\Debug\net6.0\Heritages.AssemblyInfoInputs.cache
+C:\Users\Marco\RiderProjects\Heritages\obj\Debug\net6.0\Heritages.AssemblyInfo.cs
+C:\Users\Marco\RiderProjects\Heritages\obj\Debug\net6.0\Heritages.csproj.CoreCompileInputs.cache
+C:\Users\Marco\RiderProjects\Heritages\obj\Debug\net6.0\Heritages.sourcelink.json
+C:\Users\Marco\RiderProjects\Heritages\obj\Debug\net6.0\Heritages.dll
+C:\Users\Marco\RiderProjects\Heritages\obj\Debug\net6.0\refint\Heritages.dll
+C:\Users\Marco\RiderProjects\Heritages\obj\Debug\net6.0\Heritages.pdb
+C:\Users\Marco\RiderProjects\Heritages\obj\Debug\net6.0\Heritages.genruntimeconfig.cache
+C:\Users\Marco\RiderProjects\Heritages\obj\Debug\net6.0\ref\Heritages.dll
