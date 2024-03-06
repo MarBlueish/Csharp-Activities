@@ -1,0 +1,15 @@
+C:\Users\Marco\RiderProjects\DelegatesNcallbacks\obj\Debug\net6.0\DelegatesNcallbacks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marco\RiderProjects\DelegatesNcallbacks\obj\Debug\net6.0\DelegatesNcallbacks.AssemblyInfoInputs.cache
+C:\Users\Marco\RiderProjects\DelegatesNcallbacks\obj\Debug\net6.0\DelegatesNcallbacks.AssemblyInfo.cs
+C:\Users\Marco\RiderProjects\DelegatesNcallbacks\obj\Debug\net6.0\DelegatesNcallbacks.csproj.CoreCompileInputs.cache
+C:\Users\Marco\RiderProjects\DelegatesNcallbacks\obj\Debug\net6.0\DelegatesNcallbacks.sourcelink.json
+C:\Users\Marco\RiderProjects\DelegatesNcallbacks\bin\Debug\net6.0\DelegatesNcallbacks.exe
+C:\Users\Marco\RiderProjects\DelegatesNcallbacks\bin\Debug\net6.0\DelegatesNcallbacks.deps.json
+C:\Users\Marco\RiderProjects\DelegatesNcallbacks\bin\Debug\net6.0\DelegatesNcallbacks.runtimeconfig.json
+C:\Users\Marco\RiderProjects\DelegatesNcallbacks\bin\Debug\net6.0\DelegatesNcallbacks.dll
+C:\Users\Marco\RiderProjects\DelegatesNcallbacks\bin\Debug\net6.0\DelegatesNcallbacks.pdb
+C:\Users\Marco\RiderProjects\DelegatesNcallbacks\obj\Debug\net6.0\DelegatesNcallbacks.dll
+C:\Users\Marco\RiderProjects\DelegatesNcallbacks\obj\Debug\net6.0\refint\DelegatesNcallbacks.dll
+C:\Users\Marco\RiderProjects\DelegatesNcallbacks\obj\Debug\net6.0\DelegatesNcallbacks.pdb
+C:\Users\Marco\RiderProjects\DelegatesNcallbacks\obj\Debug\net6.0\DelegatesNcallbacks.genruntimeconfig.cache
+C:\Users\Marco\RiderProjects\DelegatesNcallbacks\obj\Debug\net6.0\ref\DelegatesNcallbacks.dll
