@@ -8,9 +8,9 @@ namespace exercicioBookShop;
 class Program
 {
     static List<Cliente> credenciais = new List<Cliente>();
-    static List<Livro> listaLivros = new List<Livro>();
-
-    private static List<Livro> carrinho = new List<Livro>
+    static List<Livro> carrinho = new List<Livro>();
+    
+    public static List<Livro> listaLivros = new List<Livro>
     {
         new Livro { Id = 1, Nome = "Como ficar rico com uma venda", Preco = 10000.0, Stock = 1 },
         new Livro { Id = 2, Nome = "Harry Potter e o extintor", Preco = 85.0, Stock = 53 },
@@ -218,10 +218,10 @@ class Program
     static void MostrarListaItens(List<Livro> listaLivros)
     {
         Console.WriteLine("Lista de Livros Disponíveis:");
-        foreach (var livro in listaLivros)
+        foreach (var Livro in listaLivros)
         {
             Console.WriteLine(
-                $"ID: {livro.Id}, Nome: {livro.Nome}, Preço: {livro.Preco:C}, Stock: {livro.Stock}");
+                $"ID: {Livro.Id}, Nome: {Livro.Nome}, Preço: {Livro.Preco:C}, Stock: {Livro.Stock}");
         }
     }
 
@@ -236,7 +236,7 @@ class Program
             {
                 Console.WriteLine(
                     $"ID: {livro.Id}, Nome: {livro.Nome}, Preço: {livro.Preco:C}"); // retorna 
-                carrinho_count++;
+                    carrinho_count++;
             }
 
             Console.WriteLine($"Tem {carrinho_count} items no carrinho");
