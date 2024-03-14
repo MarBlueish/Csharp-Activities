@@ -28,17 +28,3 @@ C:\Users\Marco\RiderProjects\exercicioBookShop\obj\Debug\net8.0\refint\exercicio
 C:\Users\Marco\RiderProjects\exercicioBookShop\obj\Debug\net8.0\exercicioBookShop.pdb
 C:\Users\Marco\RiderProjects\exercicioBookShop\obj\Debug\net8.0\exercicioBookShop.genruntimeconfig.cache
 C:\Users\Marco\RiderProjects\exercicioBookShop\obj\Debug\net8.0\ref\exercicioBookShop.dll
-E:\exercicioBookShop\bin\Debug\net8.0\exercicioBookShop.exe
-E:\exercicioBookShop\bin\Debug\net8.0\exercicioBookShop.deps.json
-E:\exercicioBookShop\bin\Debug\net8.0\exercicioBookShop.runtimeconfig.json
-E:\exercicioBookShop\bin\Debug\net8.0\exercicioBookShop.dll
-E:\exercicioBookShop\bin\Debug\net8.0\exercicioBookShop.pdb
-E:\exercicioBookShop\obj\Debug\net8.0\exercicioBookShop.GeneratedMSBuildEditorConfig.editorconfig
-E:\exercicioBookShop\obj\Debug\net8.0\exercicioBookShop.AssemblyInfoInputs.cache
-E:\exercicioBookShop\obj\Debug\net8.0\exercicioBookShop.AssemblyInfo.cs
-E:\exercicioBookShop\obj\Debug\net8.0\exercicioBookShop.csproj.CoreCompileInputs.cache
-E:\exercicioBookShop\obj\Debug\net8.0\exercicioBookShop.dll
-E:\exercicioBookShop\obj\Debug\net8.0\refint\exercicioBookShop.dll
-E:\exercicioBookShop\obj\Debug\net8.0\exercicioBookShop.pdb
-E:\exercicioBookShop\obj\Debug\net8.0\exercicioBookShop.genruntimeconfig.cache
-E:\exercicioBookShop\obj\Debug\net8.0\ref\exercicioBookShop.dll

@@ -9,11 +9,11 @@ class Program
 {
     static List<Cliente> credenciais = new List<Cliente>();
     static List<Livro> carrinho = new List<Livro>();
-
+    
     public static List<Livro> listaLivros = new List<Livro>
     {
         new Livro { Id = 1, Nome = "Como ficar rico com uma venda", Preco = 10000.0, Stock = 1 },
-        new Livro { Id = 2, Nome = "Marco Gonçalves e o extintor", Preco = 85.0, Stock = 53 },
+        new Livro { Id = 2, Nome = "Harry Potter e o extintor", Preco = 85.0, Stock = 53 },
         new Livro { Id = 3, Nome = "Livros dos Afogados", Preco = 55.0, Stock = 53 },
         new Livro { Id = 4, Nome = "Biografia de Douglas - Sem cortes", Preco = 22.0, Stock = 10344 },
         new Livro { Id = 5, Nome = "Os amigos de Harry Potter", Preco = 11.0, Stock = 41 },
@@ -42,7 +42,7 @@ class Program
                 Console.WriteLine("Já está registado na nossa plataforma? (s/n)");
                 string resposta = Console.ReadLine();
 
-                if (resposta.Equals("s", StringComparison.OrdinalIgnoreCase))
+                if (resposta == "s")
                 {
                     Console.WriteLine("Confirme os seus dados de entrada");
                     Console.WriteLine("Indique o seu nome");
@@ -69,30 +69,17 @@ class Program
                         Console.WriteLine("Credenciais inválidas. Tente novamente ou registe-se.");
                     }
                 }
-                else if (resposta.Equals("n", StringComparison.OrdinalIgnoreCase))
+                else if (resposta == "n")
                 {
                     Console.WriteLine("Indique o seu nome para registo");
                     string nome = Console.ReadLine();
-                    Console.WriteLine("Indique o seu NIF para registo:");
+                    Console.WriteLine("Indique o seu nif para registo:");
                     string nif = Console.ReadLine();
-
-                    while (!ValidarNIF(nif))
-                    {
-                        Console.WriteLine("NIF inválido. Certifique-se de que inseriu 9 dígitos numéricos.");
-                        Console.WriteLine("Indique o seu NIF para registo:");
-                        nif = Console.ReadLine();
-                    }
-
-                    Console.WriteLine("NIF válido. Prossiga com a password.");
-
                     Console.WriteLine("Indique a sua password de registo");
                     string password = Console.ReadLine();
-
                     // Adiciona o novo cliente à lista de credenciais
                     credenciais.Add(new Cliente { Nome = nome, NIF = nif, password = password });
-
                     Console.WriteLine("Registo efetuado com sucesso. Faça login para continuar.");
-
                 }
                 else
                 {
@@ -160,7 +147,7 @@ class Program
                     Console.WriteLine("1 - Procurar Livro");
                     Console.WriteLine("2 - Mostrar Livros");
                     Console.WriteLine("3 - Comprar um Livro");
-                    Console.WriteLine("4 - Ver o meu carrinho e Finalizar Compra");
+                    Console.WriteLine("4 - Ver o meu carrinho");
                     Console.WriteLine("0 - Sair");
 
                     string input = Console.ReadLine();
@@ -174,25 +161,8 @@ class Program
                                 return;
                             case 1:
                                 Console.WriteLine("1- Procurar Livro");
-                                Console.WriteLine("Digite o ID ou parte do nome do livro:");
-                                string searchTerm = Console.ReadLine();
-
-                                // Filtra os livros com base no ID ou no nome
-                                var livrosEncontrados = listaLivros.Where(livro =>
-                                    livro.Id.ToString().Contains(searchTerm, StringComparison.OrdinalIgnoreCase) ||
-                                    livro.Nome.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)).ToList();
-
-                                if (livrosEncontrados.Count > 0)
-                                {
-                                    Console.WriteLine("Livros Encontrados:");
-                                    MostrarListaItens(livrosEncontrados);
-                                }
-                                else
-                                {
-                                    Console.WriteLine("Nenhum livro encontrado com o ID ou nome correspondente.");
-                                }
+                                //logica para procurar livros
                                 break;
-
                             case 2:
                                 Console.WriteLine("2- Mostrar Livros");
                                 MostrarListaItens(listaLivros);
@@ -202,9 +172,8 @@ class Program
                                 CompraItem(listaLivros);
                                 break;
                             case 4:
-                                Console.WriteLine("4 - Ver o meu carrinho e Finalizar Compra");
+                                Console.WriteLine("4- Ver o meu carrinho");
                                 VerCarrinho();
-                                FinalizarCompra(carrinho);
                                 break;
 
                             default:
@@ -220,36 +189,6 @@ class Program
             }
         }
     }
-
-    static bool ValidarNIF(string nif)
-    {
-        // Verifica se o NIF tem exatamente 9 dígitos
-        return nif.Length == 9 && nif.All(char.IsDigit);
-    }
-
-
-    static void FinalizarCompra(List<Livro> carrinho)
-    {
-        Console.WriteLine("Deseja finalizar a compra? (s/n)");
-        string resposta = Console.ReadLine();
-
-        if (resposta.Equals("s", StringComparison.OrdinalIgnoreCase))
-        {
-            // Gere a compra e o arquivo
-            GerarFicheiroCompra(carrinho);
-
-            // Limpe o carrinho após a compra
-            carrinho.Clear();
-
-            Console.WriteLine("Compra finalizada com sucesso! Os detalhes foram salvos no arquivo DetalhesCompra.txt.");
-        }
-        else
-        {
-            Console.WriteLine("Compra cancelada. Os itens permanecem no carrinho.");
-        }
-    }
-
-
 
     static void CompraItem(List<Livro> listaLivros)
     {
@@ -297,7 +236,7 @@ class Program
             {
                 Console.WriteLine(
                     $"ID: {livro.Id}, Nome: {livro.Nome}, Preço: {livro.Preco:C}"); // retorna 
-                carrinho_count++;
+                    carrinho_count++;
             }
 
             Console.WriteLine($"Tem {carrinho_count} items no carrinho");
@@ -431,100 +370,5 @@ class Program
             Console.WriteLine("ID inválido, operaçao concluida sem sucesso");
         }
     }
-
-    static void RegistoCompra(List<Cliente> listaClientes, List<Compra> clienteCompras)
-    {
-        // Solicita ao usuário para inserir o NIF do cliente
-        Console.Write("Insira o NIF do Cliente: ");
-        string nifCliente = Console.ReadLine();
-
-        // Procura o cliente na lista de clientes pelo NIF
-        Cliente cliente = listaClientes.FirstOrDefault(c => c.NIF == nifCliente);
-
-        // Verifica se o cliente foi encontrado
-        if (cliente != null)
-        {
-            // Chama o método para comprar um livro
-            List<Livro> carrinho = ComprarLivro();
-
-            // Calcula o valor total da compra
-            decimal valorTotalCompra = (decimal)(double)carrinho.Sum(livro => livro.Preco);
-
-            // Cria uma nova compra
-            Compra novaCompra = new(DateTime.Now, cliente, carrinho, valorTotalCompra);
-
-            // Adiciona a nova compra à lista de compras do cliente
-            clienteCompras.Add(novaCompra);
-
-            // Gera um arquivo com os detalhes da compra
-            GerarFicheiroCompra(novaCompra);
-
-            // Imprime uma mensagem informando que a compra foi registrada com sucesso
-            Console.WriteLine($"Compra registada com sucesso para o cliente {cliente.Nome}.");
-        }
-        else
-        {
-            // Imprime uma mensagem informando que o cliente não foi encontrado
-            Console.WriteLine("Cliente não encontrado. Registe-se antes de realizar uma compra.");
-        }
-    }
-
-    private static void GerarFicheiroCompra(Compra novaCompra)
-    {
-        throw new NotImplementedException();
-    }
-
-    // Método para comprar um livro
-    private static List<Livro> ComprarLivro()
-    {
-        // Implemente a lógica de compra do livro aqui.
-        return new List<Livro>();
-    }
-
-    // Método para gerar um arquivo com os detalhes da compra
-    private static void GerarFicheiroCompra(List<Livro> carrinho)
-    {
-        // Verifique se há itens no carrinho
-        if (carrinho.Count == 0)
-        {
-            Console.WriteLine("O carrinho está vazio. Não há itens para comprar.");
-            return;
-        }
-
-        // Crie um nome de arquivo único com base na data e hora da compra
-        string dataHoraAtual = DateTime.Now.ToString("yyyyMMdd_HHmmss");
-        string nomeArquivo = $"Compra_BoockShopDM_{dataHoraAtual}.txt";
-        string filePath = Path.Combine("E:\\", nomeArquivo);
-
-        // Abre o arquivo para escrita
-        using (StreamWriter sw = new StreamWriter(filePath, true))
-        {
-            // Escreve os detalhes da compra no arquivo
-            sw.WriteLine("Detalhes da Compra:");
-
-            sw.WriteLine(); //Linha do espaço
-
-            sw.WriteLine($"Data: {DateTime.Now}");
-
-            sw.WriteLine(); //Linha do espaço
-
-            // Calcula e escreve o valor total da compra no arquivo
-            decimal valorTotalCompra = (decimal)carrinho.Sum(livro => livro.Preco);
-
-            foreach (Livro livro in carrinho)
-            {
-                sw.WriteLine($"Livro: {livro.Nome}, Preço: {livro.Preco:C}");
-            }
-
-            sw.WriteLine(); //Linha do espaço
-
-            sw.WriteLine($"Valor Total da Compra: {valorTotalCompra:C}");
-
-            // Escreve uma linha de separação no arquivo
-            sw.WriteLine(new string('-', 30));
-
-            Console.WriteLine($"Arquivo {nomeArquivo} gerado com sucesso.");
-        }
-    }
-
 }
+        
